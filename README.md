@@ -1,0 +1,3 @@
+# SecondYearProgramming
+This Repository will contain all the Codes of Different languages being taught in the 4 year Journey.Along with the coding questions of competetions are also inclided.
+Hope this will help us......
