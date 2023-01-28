@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Informative Form</title>
+</head>
+
+<body style="background-color:lightcyan">
+    <h1 style="background-color:lawngreen">Informative Web page</h1>
+    <hr width="100%" color="green" size="10">
+    <p style="background-color:royalblue;">This page contains the information of a person's <mark>name,gender,e-mail</mark></p>
+    <form action=regform.php method="POST">
+        <tr>
+            <td><b>Name:</b></td>
+            <td><input type="text" name="name"></td>
+            <td><b>E-mail:</b></td>
+            <td><input type="text" name="e-mail"></td>
+        </tr>
+        <b>About Me:</b>
+        <textarea name="aboutme">This is a Text-box</textarea><br />
+
+        <b>Gender:</b>
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="female">Male
+        <br />
+
+        <tr>
+            <td style="font-size:30"><input type="submit" value="submit"></td>
+        </tr>
+    </form>
+
+
+</body>
+
+</html>

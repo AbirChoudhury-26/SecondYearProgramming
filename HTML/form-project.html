@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1 style="color:blue;"> Form</h1>
+    <form action="send.php" method="POST">
+        <tr>
+            <td style="color:red;"><b>First Name:</b></td>
+            <input type="text" name="fname" placeholder="First Name" required>
+            <br>
+            <td><b>Last Name:</b></td>
+            <input type="text" name="lname" placeholder="Last Name" required>
+        </tr>
+        <br>
+        <tr>
+            <label><b>Gender:</b></label>
+            <td><input type="radio" name="gender" value="Female"><b>Female</b></td>
+            <td><input type="radio" name="gender" value="Male"><b>Male</b></td>
+            <td> <input type="radio" name="gender" value="others"><b>Others</b></td>
+        </tr>
+        <br>
+        <tr>
+            <td><b>Password:</b></td>
+            <td><input type="password" name="password"></td>
+            <br>
+            <td><b>E-mail:</b></td>
+            <input type="email" name="email" placeholder="Email" required>
+            <br>
+            <td><b>Phone:</b></td>
+            <input type="number" name="phone" placeholder="10-digit Phone number" required>
+            <br>
+            <td><b>City:</b></td>
+            <input type="text" name="city" palceholder="" required>
+            <br>
+            <td><b>Country:</b></td>
+            <input type="text" name="country" placeholder="" required>
+            <br>
+            <textarea name="msg" id="" cols="10" rows="3" placeholder="Write your message"></textarea>
+            <br>
+        </tr>
+        <tr>
+            <td> <button type="submit" name="submit">Submit</button></td>
+        </tr>
+
+    </form>
+
+</body>
+
+</html>
