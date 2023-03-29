@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            // Odd-Even
+            // let num=prompt("Enter a number:");
+            // if(num%2)
+            //    alert("ODD Number");
+            // else
+            //    alert("EVEN Number");
+
+            // Among Two
+
+            // let num1=prompt("Enter the First Number:")
+            // let num2=prompt("Enter the second Number:");
+            // if(num1>num2)
+            // alert("Num1 is greater");
+            // else
+            // alert("Num2 is greater");
+
+
+            // Sum of Natural Number
+
+            // let n = parseInt(prompt("Enter any number for Sum of natural number"));
+            // var ans = (n * (n + 1)) / 2;
+            // alert(ans);
+
+
+            // Palindrome Munber
+
+            // let factorialNumber= parseInt(prompt("Enter any Number for Factorial"));
+            // if (factorialNumber == 0 || factorialNumber == 1)
+            //     alert("Factorial of num is 1");
+            // else {
+            //     let case1 = factorialNumber - 1;
+            //     const ans1 = factorialNumber;
+            //     while (case1) {
+            //         factorialNumber = factorialNumber * case1;
+            //         case1--;
+            //     }
+            //     alert("The factorial of number is: "+factorialNumber)
+            // }
+
+            // Prime Number
+
+            let prime =parseInt(prompt("Enter any Number:"))
+            let ans = false;
+            for (let i = 2; i < prime; i++) {
+                if (prime % i == 0) {
+                    ans = true;
+                    break;
+                }
+            }
+            if(ans==false)
+             alert(prime+" is Prime Number");
+            else
+             alert(prime+" is not a Prime Number");
+        </script>
+    </head>
+    <body></body>
+</html>
