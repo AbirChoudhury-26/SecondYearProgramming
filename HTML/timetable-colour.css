@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+    font:bold;
+    line-height: 0;
+}
+
+.heading-details
+{
+    text-align: center;
+    font:bold;
+    line-height: 0;
+}
+
+.alignleft{
+    float:left;
+    font-weight: bold;
+}
+
+.alignright{
+    float:right;
+    font-weight: bold;
+}
+
+table{
+ margin-top: 50px;
+}
+
+.iss{
+    background-color: #C2BD97;
+}
+.dip{
+    background-color: #E6B6B4;
+}
+.ml{
+    background-color: #B49FCA;
+}
+.ai{
+    background-color: #F8C18B;
+}
+.cc{
+    background-color: #C2D69B;
+}
+.ca{
+    background-color: #82B5E4;
+}
+.ecom{
+    background-color: #1CB28D;
+}
