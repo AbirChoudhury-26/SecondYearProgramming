@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script lang="javascript">
+        function a()
+        {
+             var a,b;
+             a=f1.t1.value;
+             b=f1.t2.value;
+             f1.t3.value=parseInt(a)+parseInt(b);
+        }
+        
+        function b()
+        {
+             var a,b;
+             a=f1.s1.value;
+             b=f1.s2.value;
+             f1.s3.value=parseInt(a)-parseInt(b);
+        }
+
+        function c()
+        {
+             var a,b;
+             a=f1.m1.value;
+             b=f1.m2.value;
+             f1.m3.value=parseInt(a)*parseInt(b);
+        }
+
+        function d()
+        {
+             var a,b;
+             a=f1.d1.value;
+             b=f1.d2.value;
+             f1.d3.value=parseInt(a)/parseInt(b);
+        }
+    </script>
+</head>
+<body>
+   <form  id="f1">
+
+    <h2>ADD :</h2>
+    <input type="text" id="t1"/>
+    <input type="text" id="t2"/>
+    Click:
+    <input type="Button" value="Add" onclick="a()"/>
+    <input type="text" id="t3"/>
+   
+
+    <h2>SUBTRACT :</h2>
+    <input type="text" id="s1"/>
+    <input type="text" id="s2"/>
+    Click:
+    <input type="Button" value="Subtract" onclick="b()"/>
+    <input type="text" id="s3"/>
+    
+
+    <h2>MULTIPLY :</h2>
+    <input type="text" id="m1"/>
+    <input type="text" id="m2"/>
+    Click:
+    <input type="Button" value="Multiply" onclick="c()"/>
+    <input type="text" id="m3"/>
+    
+
+    <h2>DIVISION :</h2>
+    <input type="text" id="d1"/>
+    <input type="text" id="d2"/>
+    Click:
+    <input type="Button" value="Divide" onclick="d()"/>
+    <input type="text" id="d3"/>
+    
+</body>
+</html>
