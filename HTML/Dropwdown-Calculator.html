@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        function calculate()
+        {
+            var a=parseInt(document.getElementById('f1').value);
+            var b=parseInt(document.getElementById('f2').value);
+            
+             var oper=document.getElementById('operators').value;
+
+             if(oper==='add')
+             {
+                document.getElementById('result').value=a+b;
+             }
+             if(oper==='sub')
+             {
+                document.getElementById('result').value=a-b;
+             }
+             if(oper==='mul')
+             {
+                document.getElementById('result').value=a*b;
+             }
+             if(oper==='div')
+             {
+                document.getElementById('result').value=a/b;
+             }
+        }
+      
+    </script>
+</head>
+<body>
+<h2> DROPDOWN CALCULATOR </h2>
+<label>First Number:</label>
+<input type="text" id="f1"/>
+<br>Ko
+<br>
+<label>Second Number:</label>
+<input type="text" id="f2"/>
+<br>
+<br>
+<h5>Select Operation from dropdown menu</h5>
+<select id="operators" onchange="calculate()">
+    <option>Select</option>
+    <option value="add">ADD</option>    
+    <option value="sub">SUB</option>    
+    <option value="mul">MUL</option>    
+    <option value="div">DIV</option>    
+</select>
+<br>
+<br>
+<label>Result:</label>
+<input type="text" id="result"/>
+<br>
+
+  
+</body>
+</html> 
